@@ -1,6 +1,6 @@
-package com.pet.studentmanagmentsystem.repository;
+package com.pet.sms.repository;
 
-import com.pet.studentmanagmentsystem.entity.Student;
+import com.pet.sms.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {

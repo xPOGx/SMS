@@ -1,4 +1,4 @@
-package com.pet.studentmanagmentsystem.entity;
+package com.pet.sms.entity;
 
 import jakarta.persistence.*;
 
