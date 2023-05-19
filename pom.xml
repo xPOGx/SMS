@@ -11,8 +11,8 @@
 	<groupId>com.pet</groupId>
 	<artifactId>student-management-system</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>student-managment-system</name>
-	<description>Student Managment System using Spring Boot and Thymeleaf</description>
+	<name>student-management-system</name>
+	<description>Student Management System using Spring Boot and Thymeleaf</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
