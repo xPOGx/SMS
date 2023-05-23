@@ -1,11 +1,11 @@
 # SMS
-## Student Managment System
+## Student Management System
 
 > Frontend: Thymeleaf
 > > Backend: Spring Boot
 > > > Database: MySQL
 
-Tools and technologies used
+Tools and technologies used:
 - Java 17
 - Spring Boot
 - Spring MVC
