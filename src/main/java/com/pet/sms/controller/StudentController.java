@@ -72,4 +72,9 @@ public class StudentController {
         studentService.deleteStudentById(id);
         return "redirect:/students";
     }
+
+    @GetMapping(value = {"main", "/"})
+    public String mainPage(Model model) {
+        return "main";
+    }
 }
