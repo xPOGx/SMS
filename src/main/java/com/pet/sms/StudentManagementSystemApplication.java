@@ -1,7 +1,7 @@
 package com.pet.sms;
 
-import com.pet.sms.entity.Student;
 import com.pet.sms.repository.StudentRepository;
+import com.pet.sms.repository.TeacherRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,6 +16,8 @@ public class StudentManagementSystemApplication implements CommandLineRunner {
 
 	@Autowired
 	private StudentRepository studentRepository;
+	@Autowired
+	private TeacherRepository teacherRepository;
 	@Override
 	public void run(String... args) throws Exception {
 
